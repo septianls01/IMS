@@ -1,0 +1,238 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #19245a;
+  background-color: #ffffff;
+}
+
+.navbar-brand img {
+  height: 70px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  font-weight: 18px;
+  color: #19245a;
+  background-color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link.active {
+  font-weight: bold;
+  color: #19245a !important;
+  font-size: 18px;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .dropdown-menu li {
+    position: relative;
+  }
+  .dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .dropdown-menu .submenu-left {
+    right: 100%;
+    left: auto;
+  }
+  .dropdown-menu > li:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+
+/* ============ desktop view .end// ============ */
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+#header-Contact-Us {
+  padding-top: 50px;
+  text-align: left;
+}
+
+#header-Contact-Us .head-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#header-Contact-Us .text-title {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+#Contact {
+  margin-bottom: 80px;
+}
+
+#Contact .address-item h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+#Contact .address-item .Kunjungi-kami {
+  margin-bottom: 35px;
+}
+
+#Contact .address-item .Bicara-dengan-Kami {
+  margin-bottom: 80px;
+}
+
+#Contact .address-item .Bicara-dengan-Kami .BDK-subitem li {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+  #Contact .address-item h4 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 18px;
+  }
+  #Contact .address-item .Kunjungi-kami {
+    margin-bottom: 50px;
+  }
+  #Contact .address-item .Kunjungi-kami p {
+    font-size: 20px;
+  }
+  #Contact .address-item .Bicara-dengan-Kami {
+    margin-bottom: 80px;
+  }
+  #Contact .address-item .Bicara-dengan-Kami .BDK-subitem li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+}
+
+#Contact .Send-us-item {
+  background-color: #F2F2F2;
+  border-radius: 30px;
+  max-width: 600px;
+  position: relative;
+  padding: 30px;
+}
+
+#Contact .Send-us-item .title-Send-Us-Subitem h3 {
+  text-transform: uppercase;
+  padding-top: 30px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 2em;
+  line-height: 48px;
+  padding-bottom: 20px;
+}
+
+#Contact .Send-us-item .Send-Us-Form-Subitem {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#Contact .Send-us-item .Send-Us-Form-Subitem .form-field {
+  position: relative;
+  margin: 20px 0;
+}
+
+#Contact .Send-us-item .Send-Us-Form-Subitem .input-text {
+  display: block;
+  background-color: #F2F2F2;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #5543ca;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+#Contact .Send-us-item .Send-Us-Form-Subitem .input-text:focus + .label,
+#Contact .Send-us-item .Send-Us-Form-Subitem .input-text.not-empty + .label {
+  -webkit-transform: translateY(-18px);
+          transform: translateY(-18px);
+}
+
+#Contact .Send-us-item .Send-Us-Form-Subitem .input-text:focus {
+  outline: none;
+}
+
+#Contact .Send-us-item .Send-Us-Form-Subitem .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor: text;
+  text-transform: capitalize;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+#Contact .Send-us-item .Send-Us-Form-Subitem .submit-btn {
+  margin-top: 60px;
+  padding: 10px 50px 10px 50px;
+  color: #ffffff;
+  background-color: #E46A26;
+  border-radius: 6;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  width: 200px;
+}
+
+#Contact .Send-us-item .Send-Us-Form-Subitem .submit-btn:hover {
+  background-color: #f99247;
+  color: #ffffff;
+}
+
+@media (min-width: 576px) {
+  .Send-us-item {
+    -webkit-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Footer*/
+#Section-footer {
+  background-color: #ffffff;
+}
+
+#Section-footer li.imglogobrand {
+  max-width: 223px;
+  max-height: 165px;
+}
+
+#Section-footer .footer-link-list a {
+  color: #080f2e;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#Section-footer ul li {
+  font-size: 18px;
+}
+
+#Section-footer a:hover {
+  color: #ff8f3e;
+  text-decoration: none;
+}
+
+#Section-footer ul.footer-link-list li {
+  padding-top: 10px;
+}
+
+#footer-copyright {
+  color: #ffffff;
+  background-color: #080f2e;
+}
+/*# sourceMappingURL=mainContact.css.map */

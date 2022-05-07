@@ -1,0 +1,65 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #19245a;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#30cfd0), to(#330867));
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+#section-login {
+  padding: 300px;
+}
+
+#section-login .box {
+  padding: 16px 24px 22px;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+  width: 320px;
+}
+
+#section-login .box .img-logo {
+  background-color: #c9c8d3;
+  border-radius: 50%;
+  height: 166px;
+  width: 166px;
+  margin-top: -100px;
+}
+
+#section-login .box .img-logo img {
+  margin: 10px;
+  padding-top: 30px;
+}
+
+#section-login .box form .email {
+  margin-bottom: 32px;
+  margin-top: 20px;
+}
+
+#section-login .box form .email .form-label {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#section-login .box form .password .form-label {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#section-login .box form .btn-submit {
+  text-align: center;
+  margin-top: 46px;
+}
+
+#section-login .box form .btn-submit .submit {
+  background-color: #19245a;
+  color: #ffffff;
+  width: 120px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+#section-login .box form .btn-submit .submit:hover {
+  background-color: #172d97;
+}
+/*# sourceMappingURL=mainSignIn.css.map */

@@ -1,0 +1,248 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #19245a;
+  background-color: #ffffff;
+}
+
+.navbar-brand img {
+  height: 70px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  font-weight: 18px;
+  color: #19245a;
+  background-color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link.active {
+  font-weight: bold;
+  color: #19245a !important;
+  font-size: 18px;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .dropdown-menu li {
+    position: relative;
+  }
+  .dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .dropdown-menu .submenu-left {
+    right: 100%;
+    left: auto;
+  }
+  .dropdown-menu > li:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+
+/* ============ desktop view .end// ============ */
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+header {
+  max-width: 100%;
+  padding: 244px 0px 165px;
+  background-image: url("../images/Mask Group 1.png");
+  background-size: cover;
+  background-position-y: center;
+}
+
+header h1,
+header p {
+  color: #ffffff;
+}
+
+header h1 {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+header p {
+  margin-top: 25px;
+  font-size: 26px;
+}
+
+.btn-about-us {
+  margin-top: 60px;
+  padding: 12px 30px 13px 30px;
+  color: #ffffff;
+  background-color: #ec7b3c;
+  border-radius: 6;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn-about-us:hover {
+  background-color: #f99247;
+  color: #ffffff;
+}
+
+.section-product {
+  padding-top: 70px;
+  background-color: #ffffff;
+  max-width: 100%;
+  padding-bottom: 50px;
+}
+
+.section-product .title-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  padding-bottom: px;
+}
+
+.section-product .text-heading {
+  font-size: 20px;
+  color: #6B6C6D;
+}
+
+.section-product .portfolio-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
+
+.section-product .portfolio-item .caption {
+  display: -ms-grid;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.section-product .portfolio-item .caption .caption-content {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-product .portfolio-item img {
+  width: 340px;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .content-section-heading {
+    padding-bottom: 25px;
+  }
+  .section-product {
+    padding-bottom: 80px;
+  }
+  .portfolio-item {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item .caption .caption-content {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  .portfolio-item img {
+    max-width: auto;
+    max-height: 220px;
+  }
+}
+
+.section-project {
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 100%;
+}
+
+.section-project .Guru-belajar {
+  width: 320px;
+  margin-top: 35px;
+}
+
+.section-project .Ancol {
+  margin-top: 35px;
+}
+
+@media (min-width: 992px) {
+  .section-project {
+    max-width: 100%;
+    max-height: 170px;
+  }
+  .section-project .kampus-merdeka {
+    margin-top: -30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .section-project .Guru-belajar {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 500px;
+    height: auto;
+  }
+  .section-project .Ancol {
+    margin-top: -35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+/* Footer*/
+#Section-footer {
+  background-color: #ffffff;
+}
+
+#Section-footer li.imglogobrand {
+  max-width: 223px;
+  max-height: 165px;
+}
+
+#Section-footer .footer-link-list a {
+  color: #080F2E;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#Section-footer ul li {
+  font-size: 18px;
+}
+
+#Section-footer a:hover {
+  color: #FF8F3E;
+  text-decoration: none;
+}
+
+#Section-footer ul.footer-link-list li {
+  padding-top: 10px;
+}
+
+#footer-copyright {
+  color: #ffffff;
+  background-color: #080F2E;
+}
+/*# sourceMappingURL=main.css.map */
